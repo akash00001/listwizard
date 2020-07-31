@@ -1,0 +1,78 @@
+<html>
+    <head>
+        <title>shopaholic</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        <div id="wrapper">
+            <header>
+                <div id="page-top">
+                    <h1 class="title">Shopaholic</h1>
+                    
+                    <p>My shopping list</p>
+
+                    <form id="search-item">
+                        <input type="text" placeholder="search items...">
+                        <div id="check">
+                            <label for="hide">Hide list</label>
+                            <input type="checkbox" id="hide">
+                        </div>
+                    </form>
+                </div>
+            </header>
+
+            <form id="add-item">
+                <input type="text" placeholder="What do you want to buy">
+                <button>Add</button>
+            </form>
+
+            <div id="grocery-list">
+                <font color="#ffffff">
+                <h2 class="title">Items to buy</h2></font>
+                <ul>
+                    <li><font color="#ffffff">
+                        <span class="item">Milk</span>
+                        <span class="delete">delete</span>
+                    </li>
+
+                    <li>
+                        <span class="item">Paneer</span>
+                        <span class="delete">delete</span>
+                    </li>
+
+                    <li>
+                        <span class="item">Cheese</span>
+                        <span class="delete">delete</span>
+                    </li>
+
+                    <li>
+                        <span class="item">Ghee</span>
+                        <span class="delete">delete</span>
+                    </li></font>
+                </ul>
+            </div>
+            <div id="tab-wrapper">
+                <ul class="heading">
+                    <li data-clicked = '#joke' class="active">Food joke</li>
+                    <li data-clicked="#facts">Did you know</li>
+                </ul>
+
+                <div id="joke" class="panel">
+                    <p>what do you call a fake noodle</p>
+                    <button id="showanswer">Answer</button>
+                    <p></p>
+                </div>
+
+                <div id="facts" class="panel">
+                    <p>This is what i learned about food this week</p>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae reiciendis suscipit perferendis est repellendu</p>
+                </div>
+            </div>
+        </div>
+        <script src="app.js"></script>
+        <br><p><font color="#00FF00"><h5>"We here as a reminder till your bag/cart is filled up with the last product in your list"</h5></p></font>
+        <p>
+       <h3><br><br><br><br><font color="#ffffff"><br>By:-</h3><h4>AKASH NAIK</h4></font></p>
+    
+</html>
