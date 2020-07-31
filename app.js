@@ -125,5 +125,5 @@ button.addEventListener('click', () => {
         }else{
             paragraph.innerText = '';
         }
-    
+    //Changes
 })
